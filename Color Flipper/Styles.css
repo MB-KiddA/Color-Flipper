@@ -1,0 +1,41 @@
+body{
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    text-align: center;
+    display:grid;
+    grid-template-columns: auto ;
+    grid-template-rows: 1fr, 4fr ;
+    grid-template-areas: 
+    "nav"
+    "button";
+}
+
+nav{
+    grid-area: nav;
+    letter-spacing: var(--spacing);
+    
+}
+
+.next-btn {
+    text-transform: uppercase;
+    background:transparent;
+    color: black;
+    padding: 1.375rem 0.75rem;
+    display: inline-block;
+    font-weight: 700;
+    width: auto;
+    height: 20%;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: var(--radius);
+  }
+
+
+.nav-links{
+    list-style: none;
+    
+
+}
+
+.container{
+    align-self: center;
+}
